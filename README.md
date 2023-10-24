@@ -1,7 +1,7 @@
 # News-Image-Generator
 Generates images based on a paragraph, translates it to English, and feeds it into Stability AI text-to-image API to generate image.
 This project includes Stability AI text-to-image API, which is a paid feature.
-Since an OpenAI GPT API is also a paid feature, we didn't actually use it. Instead, we manually put the paragraph in the ChatGPT online and get the excerpted sentence, then feed it in the Google translation API . But this can also be done by hooking up to the API so the process could be completely automatic.
+Since an OpenAI GPT API is also a paid feature, we didn't actually use it. Instead, we manually put the paragraph in the ChatGPT online and get the excerpted sentence, then feed it in the Google translation API . But this can also be done by hooking up to the GPT API so the process could be completely automatic.
 ## Style
 We demanded a consistent style for the news agency, so that the reader could recognize intuitively where the image comes from, and we didn't want to generate a realistic image that may mislead readers into believing that the image is real, so we ended on the 'caricature in lively color' style.
 Below are several examples of the original paragraph (in Taiwanese Traditional Chinese), the extracted sentence, the translated sentence (in English), and the final outputted image.
